@@ -2,6 +2,9 @@
 
 # How to use:
 
+Change Livestream URL:  
+    Change the url on the index.js of twitchPuppeteer  
+
 Download:  
     Start the upload server with: node index.js  
     Start the Puppeteer with: node index.js  

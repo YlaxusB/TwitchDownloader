@@ -1,3 +1,5 @@
+const url = "https://www.twitch.tv/chratosgameplay";
+
 const puppeteer = require("puppeteer");
 const puppeteerHar = require("puppeteer-har");
 const { promisify } = require("util");
@@ -35,7 +37,7 @@ const observe = [
     deviceScaleFactor: 1,
   });
   console.log("entrando na live")
-  await page.goto("https://www.twitch.tv/chratosgameplay");
+  await page.goto(url);
   console.log("entrou na live")
   const backgroundPageTarget = await browser.waitForTarget((target) => target.type() === "background_page", { timeout: 120000 });
   const backgroundPage = await backgroundPageTarget.page();
