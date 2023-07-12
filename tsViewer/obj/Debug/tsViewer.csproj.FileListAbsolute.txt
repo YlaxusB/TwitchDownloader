@@ -1,0 +1,16 @@
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\bin\Debug\tsViewer.exe.config
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\bin\Debug\tsViewer.exe
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\bin\Debug\tsViewer.pdb
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\bin\Debug\Interop.WMPLib.dll
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.csproj.AssemblyReference.cache
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\Interop.WMPLib.dll
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.csproj.ResolveComReference.cache
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.Form1.resources
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.Properties.Resources.resources
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.csproj.GenerateResource.cache
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.csproj.CoreCompileInputs.cache
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.exe
+C:\Users\Giovane\Desktop\Workspace 2023\tsViewer\obj\Debug\tsViewer.pdb

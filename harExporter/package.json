@@ -1,0 +1,19 @@
+{
+  "name": "harexporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "export_har.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-har-capturer": "^0.13.10",
+    "chrome-remote-interface": "^0.32.1",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "har-generator": "^1.1.3",
+    "node-fetch": "^2.6.9"
+  }
+}

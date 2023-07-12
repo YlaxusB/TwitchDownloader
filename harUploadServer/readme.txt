@@ -1,0 +1,1 @@
+ffmpeg -protocol_whitelist "file,http,https,tcp,tls,crypto" -i output.m3u8 -c copy output.mp4
