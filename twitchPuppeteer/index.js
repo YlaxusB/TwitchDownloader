@@ -5,6 +5,25 @@ const puppeteerHar = require("puppeteer-har");
 const { promisify } = require("util");
 const fs = require("fs");
 
+const path = require('path');
+
+// Get the absolute path of the currently executing script
+const filePath = __filename;
+
+// Get the directory of the currently executing script
+const fileDirectory = __dirname;
+
+// Get the parent directory of the currently executing script
+let parentDirectory = path.dirname(fileDirectory);
+
+console.log('File Path:', filePath);
+console.log('File Directory:', fileDirectory);
+console.log('Parent Directory:', parentDirectory);
+
+parentDirectory = parentDirectory + "\\harExtension\\autohar-master\\autohar-master"
+console.log('Last:');
+console.log(parentDirectory);
+
 const { harFromMessages } = require("chrome-har");
 
 let events = [];
@@ -24,7 +43,8 @@ const observe = [
 ];
 
 (async () => {
-  const pathToExtension = "C:\\Users\\Giovane\\Desktop\\Workspace 2023\\TwitchDownloaderProjectPrototype\\harExtension\\autohar-master\\autohar-master";
+  
+  const pathToExtension = parentDirectory;
   const browser = await puppeteer.launch({
     executablePath: "C:/Program Files/Google/Chrome/Application/chrome.exe",
     devtools: true,
