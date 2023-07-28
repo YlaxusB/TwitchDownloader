@@ -10,6 +10,6 @@ Download:
     Start the Puppeteer with: node index.js  
 
 Merge .ts Files into a MP4:  
-    Run in the cmd: node tsToM3u8.js
+    Run in the cmd: node tsToM3u8.js  
     Start a http server inside the uploadServer->downloads->tsFiles with: http-server   
     Merge the tsFiles with: ffmpeg -protocol_whitelist "file,http,https,tcp,tls,crypto" -i output.m3u8 -c copy output.mp4  
